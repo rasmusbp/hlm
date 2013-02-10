@@ -1,0 +1,79 @@
+.s-shadow, .t-shadow, .l-shadow, .l-shadow-front, .li-shadow {
+	display: none;
+}
+
+.contentslider .slice-heading, .box h2.red, #sidebar-right .box h2.red {
+	left: 0px;
+}
+
+.contentslider .slice-heading {
+	width: 780px;
+	top: 250px;
+	height: 120px;	
+}
+
+.slider-imgs {
+
+}
+
+.fact1, .fact2, .fact3 {
+	float: left;
+}
+
+.contentslider {
+	margin-top: 0px;
+}
+
+#facts span {
+	font-size: 70px;
+	margin-right: 10px;
+	display: block;
+	float: left;
+	height: 80px;
+	margin-top: -20px;
+}
+
+#facts p {
+	float: left;
+}
+
+.fact1, .fact2, .fact3 {
+	font-size: 24px;
+	clear: none;
+	padding-left: 20px;
+	display: inline-table;
+}
+
+#minipages .header {
+	display: none;
+}
+
+.view-display-id-clients td, .view-display-id-block_1 td {
+	padding-bottom: 30px;
+}
+
+#related div {
+	clear: none;
+}
+
+#related p {
+	display: none;
+}
+
+#related .related-items {
+	width: 960px;
+	border-right: none;
+}
+
+#related .related-items div {
+	clear: none;
+}
+
+#related div.stdlink {
+    margin-right: 0px;
+}
+
+#footer .clients {
+	padding-top: 30px;
+	height: 100px;
+}

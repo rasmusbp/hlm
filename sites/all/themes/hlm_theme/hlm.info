@@ -1,0 +1,45 @@
+name = hlm
+description = HLM | Teknisk Landmåling
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/nivo-slider.css
+stylesheets[all][] = css/nivo-theme/default.css
+scripts[] = js/cufon.js
+scripts[] = js/cufon-script.js
+scripts[] = js/max-font-bold.js
+scripts[] = js/max-font-light.js
+scripts[] = js/jquery-css3.animate.js
+scripts[] = js/jquery-easing.js
+scripts[] = js/jquery-outside.js
+scripts[] = js/jquery.cycle.js
+scripts[] = js/nivo-slider/jquery.nivo.slider.pack.js
+scripts[] = js/nivo-slider/nivo-custom.js
+scripts[] = js/default.js
+regions[content] = Content
+regions[team] = Team
+regions[team_list] = Team list
+regions[clients] = Clients
+regions[references] = References
+regions[frontslider] = Frontpage slider
+regions[rightsidebar1] = Rightbar first
+regions[rightsidebar2] = Rightbar second
+regions[rightsidebar3] = Rightbar last
+regions[postscript1] = Postscript first
+regions[postscript2] = Postscript second
+regions[postscript3] = Postscript third
+regions[project_menu] = Projekt menu
+regions[service_menu] = Service menu
+regions[archive] = Nyhedsarkiv
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+
+; Information added by drupal.org packaging script on 2011-07-28
+version = "7.7"
+project = "drupal"
+datestamp = "1311813879"
+
+	
