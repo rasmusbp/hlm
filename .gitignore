@@ -6,9 +6,11 @@ cache/
 files/
 sites/*/files
 sites/*/private
+sites/default
 
 # Ignore default text files
 .htaccess
+.DS_Store
 robots.txt
 /CHANGELOG.txt
 /COPYRIGHT.txt
@@ -35,3 +37,7 @@ xmlrpc.php
 /profiles
 /scripts
 /themes
+
+#ignore grunt setting files
+.ftppass
+node_modules/

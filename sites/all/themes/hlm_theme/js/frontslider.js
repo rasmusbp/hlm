@@ -1,6 +1,7 @@
 (function ($) { 
 		
-		
+$(document).ready(function() {		
+
 		// TOP SLIDER
 		var shft = 5000;
 		
@@ -21,9 +22,6 @@
 			
 		}, shft);
 	
-$(document).ready(function() {
-
-			rotateImages();	
 	
 }); // <-- Document Ready
 
