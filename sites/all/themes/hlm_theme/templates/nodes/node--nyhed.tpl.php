@@ -14,8 +14,7 @@
 	<div class="date"><?php print render($date); ?></div>
 	
 	<?php print render($content['body']); ?>
-
-	<a class="more_btn" href="#" alt="Læs mere">Læs mere</a>
+	
 </div>
 
 <div id="sidebar-right">

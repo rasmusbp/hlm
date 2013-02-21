@@ -1,7 +1,7 @@
 /* -------- STYLES --------  */
 body {
 	font-family: Helvetica, Arial, sans-serif !important;
-	background: url('../assets/bgnoise.gif') #faf9f9;
+	background: url('http://subtlepatterns.com/patterns/subtle_dots.png') #fafafa;
 }
 
 .clear {
@@ -10,9 +10,10 @@ body {
 
 
 #pre-wrapper {
-	background: url('../assets/header-bgr.png') repeat-x;
+	background: #fff;
 	height: 97px;
 	width: 100%;
+	border-bottom: 1px solid #f1f1f1;
 }
 
 #header {
@@ -87,7 +88,13 @@ p.email {
 	z-index: 99;
 }
 
-// Scrolltargets
+.logos3dmaskinstyring {
+	text-align: center;
+	margin-top: 12px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #333;
+}
 
 div.target {
 	position: relative !important;
@@ -220,18 +227,12 @@ div.target {
 	z-index: 999;
 }
 
-/* _____ TEMP VIEW OF MINIPAGES ---- DELETE THESSE STYLES _____*/
-#minipages .mp-services {
-	
-}
-/* ^^^^ TEMP VIEW OF MINIPAGES ---- DELETE THESSE STYLES ^^^^ */
-
 
 #minipages .mp-projects:before, #minipages .mp-services:before, #minipages .mp-about:before {
 	content: '';
 	width: 175px;
 	height: 62px;
-	background: #333;
+	background: #222;
 	position: absolute;
 	top: -60px;
 	border-radius: 3px 3px 0px 0px;
@@ -267,16 +268,11 @@ div.target {
 }
 
 #minipages .content {
-	background: url('../assets/black_linen_v2.png') #333;
-	border: 1px solid #444;
+	background: #222;
 	border-radius: 3px;
 	width: 964px;
 	height:450px;
 	padding-bottom: -10px;
-	margin: 10px 0px 0px 3px;
-	box-shadow: 0px -1px 0px #000, inset 0px 0px 40px #000;
-	-moz-box-shadow: 0px -1px 0px #000, inset 0px 0px 40px #000;
-	-webkit-box-shadow:0px -1px 0px #000, inset 0px 0px 40px #000;
 }
 
 #minipages .content:after {
@@ -285,7 +281,6 @@ div.target {
 	width: 960px;
 	height: 5px;
 	display: block;
-	box-shadow: 0px 6px 5px rgba(0,0,0,1);
 	top: 453px;
 }
 
@@ -293,7 +288,7 @@ div.target {
 	width: 972px;
 	height: 470px;
 	position: absolute;
-	background: #333;
+	background: #222;
 	border-radius:3px;
 	top: 68px;
 	left: 0px;
@@ -322,64 +317,29 @@ div.target {
 #minipages p.desc {
 	font-size: 14px;
 	line-height: 140%;
-	margin-top: 40px;
 	text-shadow: 0px 1px 1px #000;
 }
 
-#minipages ul {
+#minipages ul.submenu {
 	margin-top: 20px;
-	border: 1px solid #e1e1e1;
-	border-radius: 10px;
-	box-shadow: 0px 5px 5px #000;
-	-moz-box-shadow: 0px 5px 5px #000;
-	-webkit-box-shadow: 0px 5px 5px #000;
 }
 
 
-#minipages ul li {
-	border-top: 1px solid #e1e1e1;
-	background: url('../assets/plus.png') no-repeat 8px 12px #7db9e8;	
+#minipages ul.submenu li {
+	background: url('../assets/plus.png') no-repeat 8px 12px transparent;	
 }
 
-#minipages ul li:first-child {
-	border-top: none;
-	border-radius: 10px 10px 0px 0px;
-}
-
-#minipages ul li:first-child a {
-	border-top: none;
-	border-radius: 10px 10px 0px 0px;
-}
-
-#minipages ul li:last-child {
-	border-radius: 0px 0px 10px 10px;
-}
-
-#minipages ul li:last-child a{
-	border-radius: 0px 0px 10px 10px;
-}
-
-#minipages ul li a {
+#minipages ul.submenu li a {
 	display: block;
 	text-decoration: none;
 	font-size: 14px;
 	margin-bottom: 0px;
 	color: #fff;
 	padding: 10px 10px 10px 30px;
-	box-shadow: inset 0px 1px 0px #2785c4;
-	-moz-box-shadow: inset 0px 1px 0px #2785c4;
-	-webkit-box-shadow:inset 0px 1px 0px #2785c4;
 }
 
-#minipages ul li a:hover {
-    background: #7db9e8;
-	background: -moz-linear-gradient(top, #7db9e8 0%, #2785c4 99%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7db9e8), color-stop(99%,#2785c4));
-	background: -webkit-linear-gradient(top, #7db9e8 0%,#2785c4 99%);
-	background: -o-linear-gradient(top, #7db9e8 0%,#2785c4 99%);
-	background: -ms-linear-gradient(top, #7db9e8 0%,#2785c4 99%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#2785c4',GradientType=0 );
-	background: linear-gradient(top, #7db9e8 0%,#2785c4 99%);
+#minipages ul.submenu li:hover {
+    background: url('../assets/plus.png') no-repeat 8px 12px #7db9e8;
 }
 
 #minipages .col-1 {
@@ -388,9 +348,6 @@ div.target {
 	height: 380px;
 	padding: 30px 30px 40px 30px;
 	border-right: 1px solid #333;
-	box-shadow: 1px 0px 0px #000;
-	-moz-box-shadow: 1px 0px 0px #000;
-	-webkit-box-shadow: 1px 0px 0px #000;
 }
 
 #minipages  p.intro {
@@ -406,9 +363,6 @@ div.target {
 	padding: 30px 30px 40px 0px;
 	left: 355px;
 	border-right: 1px solid #333;
-	box-shadow: 1px 0px 0px #000;
-	-moz-box-shadow: 1px 0px 0px #000;
-	-webkit-box-shadow: 1px 0px 0px #000;
 
 }
 
@@ -777,8 +731,8 @@ span.t-shadow {
 }
 
 .content h1 {
-	font-size: 60px;
-	line-height: 70px;
+	font-size: 45px;
+	line-height: 40px;
 	color: #008d7f;
 	margin-bottom: 60px;
 }
@@ -789,7 +743,7 @@ span.t-shadow {
   color: #008D7F;
   margin-bottom: 30px;
   padding: 20px 0;
-  text-align: center;
+  text-align: left;
 }
 
 .content p.tag {

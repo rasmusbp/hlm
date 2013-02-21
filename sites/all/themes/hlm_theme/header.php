@@ -2,7 +2,7 @@
 ?>
 	<div id="pre-wrapper">
 		<div id="header">
-			<div class="logo"><a href="http://www.hlm.as/site"><img src="http://hlm.as/site/sites/all/themes/hlm_theme/assets/logo.png"></a></div>
+			<div class="logo"><a href="/"><img src="/sites/all/themes/hlm_theme/assets/logo.png"></a></div>
 			<div class="contact-info" alt="Kontakt HLM"><p class="phone">+45 32125115</p><p class="email"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#111;&#110;&#116;&#97;&#107;&#116;&#64;&#104;&#108;&#109;&#46;&#97;&#115;">&#107;&#111;&#110;&#116;&#97;&#107;&#116;&#64;&#104;&#108;&#109;&#46;&#97;&#115;</a></p></div>
 		</div>
 		<div id="wrapper">
@@ -54,6 +54,25 @@
 					</div>
 					<div class="col-3">
 						<h3>3D Maskinstyring</h3>
+						<div class="logos3dmaskinstyring">
+							<ul>
+								<li>
+									<a href="http://www.scanlaser.dk" target="_blank">
+										<img src="/sites/all/themes/hlm_theme/assets/scanlaser-logo.png" width="185px" height="83px" alt="Scanlaser logo"/>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.trimble.com" target="_blank">
+										<img src="/sites/all/themes/hlm_theme/assets/trimble-logo.png" width="185px" height="57px" alt="Trimble logo"/>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.topcon.com" target="_blank">
+										<img src="/sites/all/themes/hlm_theme/assets/topcon-logo.png" width="185px" height="50px" alt="Topcon logo"/>
+									</a>
+								</li>
+							</ul>
+						</div>
 						<p class="desc">
 							Vi arbejder for mange ingeniører og entreprenører firmaer som bruger maskinstyring, 
 						</p>
