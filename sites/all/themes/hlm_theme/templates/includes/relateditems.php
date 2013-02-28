@@ -1,1 +1,1 @@
-<div id="related"><div class="related-items"><?php print render($content['field_related']); ?><div class="stdlink"><a href="/site/om-hlm">Om HLM</a></div><p>læs også:</p></div></div>
+<div id="related"><div class="related-items"><?php print render($content['field_related']); ?><div class="stdlink"><a class="btn normal_btn" href="/site/om-hlm">Om HLM</a></div><p>læs også:</p></div></div>

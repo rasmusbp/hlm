@@ -5,6 +5,5 @@
 		</div>
 		<?php print $fields['title']->content; ?>
 		<?php print $fields['field_twolines']->content; ?>
-		<!--<a class="more_btn" href="#" alt="Se video for projektet">Læs mere</a>-->
 		<?php print $fields['view_node']->content; ?>
 	</div>

@@ -4,6 +4,13 @@
 			<div class="contents-wrap">			
 				<?php print render(block_get_blocks_by_region('frontslider')); ?>
 			</div>
+			<div class="spot">
+				<h2 class="spot-header red">Knivskarp overbevisende overskrift</h2>
+				<div class="spot-text"><p class="spot-desc">Duis viverra neque eu odio lacinia semper. Sed id lectus lectus. Vivamus hendrerit vehicula ipsum in tincidunt. Morbi porttitor venenatis diam, in sodales odio sagittis eu.</p></div>
+				<div class="spot-action"><a href="#" class="btn huge_btn"> Download produktark</a></div>
+				<div class="clearfix"></div>
+				<span class="l-shadow"></span>
+			</div>
 			<div id="facts">
 				<div class="fact1"><span>21</span><p>specialiserede<br>
 				landmålere</p></div>
@@ -32,8 +39,4 @@
 				</div>
 				<?php include 'sites/all/themes/hlm_theme/templates/includes/contactbox.php' ?>
 			</div>
-			<div id="footer">
-				<div class="clients"><a href="/site/om-hlm#clients/"><img src='http://hlm.as/site/sites/all/themes/hlm_theme/assets/client-footer-front.png' width='928px' height='56px'></a></div> 
-					<address>HLM | Teknisk Landmåling / Hovedkontor: Damhusdalen 39b, 2610 Rødovre / Administration: Skolevej 16, 4490 Jerslev / T: +45 3212 5115</address>
-			</div>
-	</div>			
+	</div>

@@ -2,6 +2,7 @@
 			<div class="contents-wrap">
 			<div class="contentslider"><h1>Den fortrukne landmåler hos ingeniører og entreprenører</h1><img src="assets/temp-bgr.jpg"></div>
 			</div>
+			
 			<div id="facts">
 				<div class="fact1"><p><span>14</span>specialiserede<br>
 				landmålere</p></div>
@@ -41,8 +42,5 @@
 					<div class="map-box"></div>
 				</div>
 			</div>
-			<div id="footer">
-				<div class="clients"><a href="#"><img src='assets/client-footer-front.png' width='928px' height='56px'></a></div> 
-					<address>HLM | Teknisk Landmåling / Hovedkontor: Damhusdalen 39b, 2610 Rødovre / Administration: Skolevej 16, 4490 Jerslev / T: +45 3212 5115</address>
-			</div>
-	</div>			
+	</div>
+	<?php include 'footer.php' ?>			

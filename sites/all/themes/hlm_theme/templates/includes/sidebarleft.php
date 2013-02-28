@@ -1,7 +1,6 @@
 <div id="sidebar-left">
 
 		<?php if ($node->type == 'projekt'): ?>
-		<h2>Fakta</h2>
 		<?php print render($content['field_facts']); ?>
 			<div class="projectdata-wrap">
 			<ul class="projectdata">
@@ -15,7 +14,6 @@
 		<?php endif; ?>
 		
 		<?php if ($node->type == 'service'): ?>
-		<h2>Referencer</h2>
 		
 		<div id="references">
 		<p> Ved følgende projekter har denne service været relevant for udførelsen. </p>

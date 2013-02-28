@@ -2,9 +2,10 @@
 ?>
 	<div id="pre-wrapper">
 		<div id="header">
-			<div class="logo"><a href="/"><img src="/sites/all/themes/hlm_theme/assets/logo.png"></a></div>
+			<div class="logo"><a href="/"><img src="/sites/all/themes/hlm_theme/assets/logo.png"/></a></div>
 			<div class="contact-info" alt="Kontakt HLM"><p class="phone">+45 32125115</p><p class="email"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#111;&#110;&#116;&#97;&#107;&#116;&#64;&#104;&#108;&#109;&#46;&#97;&#115;">&#107;&#111;&#110;&#116;&#97;&#107;&#116;&#64;&#104;&#108;&#109;&#46;&#97;&#115;</a></p></div>
 		</div>
+	</div>
 		<div id="wrapper">
 			<div id="nav">
 				<ul>
@@ -34,7 +35,7 @@
 						<div class="col-3">
 							<h3>Referenceliste</h3>
 							<?php print render(block_get_blocks_by_region('references')); ?>
-							<p><a href="http://www.hlm.as/site/referenceliste" class="all_ref">se fuld referenceliste</a></p>
+							<p><a href="http://www.hlm.as/site/referenceliste" class="btn normal_btn">se fuld referenceliste</a></p>
 						</div>
 					</div>
 						
@@ -76,28 +77,28 @@
 						<p class="desc">
 							Vi arbejder for mange ingeniører og entreprenører firmaer som bruger maskinstyring, 
 						</p>
-						<a class="more_btn" href="/site/standard/3d-maskinstyring" alt="Læs om 3D maskinstyring">3D maskinstyring</a> 
+						<a class="btn normal_btn" href="/site/standard/3d-maskinstyring" alt="Læs om 3D maskinstyring">3D maskinstyring</a> 
 					</div>
 					</div>
 				</div>
 				<div class="mp-about">
 					<div class="header"><h2>Om HLM</h2><p>Hvem er folkene bag HLM.</p></div>
 					<div class="content">
-					<div class="col-1">
-					<p class="intro">
-						Vi gør det enkelt at skabe nye og innovative løsninger uden meromkostninger. Hos HLM tænker vi os om, før vi handler.
-					</p>
-					</div>
-					<div class="col-2">
-						<h3>Om HLM</h3>
-							<p class="miniabout">Samarbejde og enkel kommunikation er et af hovedelementerne i et succesfuldt projekt. Vi ønsker at være en samarbejdspartner, som tilfører projektet veluddannet personale og udstyr med den nyeste teknologi, som kan løse opgaver ud fra projektets præmisser og vores tekniske erfaring.</p>
-							<p><a href="/site/om-hlm" class="more_btn">læs mere</a></p>
-					</div>
-					<div class="col-3">
-							<h3>Kontakt os...</h3>
-							<?php print render(block_get_blocks_by_region('team_list')); ?>
-							<p><a href="/site/om-hlm" class="all_staff">se alle medarbejderne</a></p>
-					</div>
+						<div class="col-1">
+						<p class="intro">
+							Vi gør det enkelt at skabe nye og innovative løsninger uden meromkostninger. Hos HLM tænker vi os om, før vi handler.
+						</p>
+						</div>
+						<div class="col-2">
+							<h3>Om HLM</h3>
+								<p class="miniabout">Samarbejde og enkel kommunikation er et af hovedelementerne i et succesfuldt projekt. Vi ønsker at være en samarbejdspartner, som tilfører projektet veluddannet personale og udstyr med den nyeste teknologi, som kan løse opgaver ud fra projektets præmisser og vores tekniske erfaring.</p>
+								<p><a href="/site/om-hlm" class="btn normal_btn">læs mere</a></p>
+						</div>
+						<div class="col-3">
+								<h3>Kontakt os...</h3>
+								<?php print render(block_get_blocks_by_region('team_list')); ?>
+								<p><a href="/site/om-hlm" class="normal_btn btn">se alle medarbejderne</a></p>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -35,4 +35,10 @@ Cufon.replace('#facts',
 				 textShadow: ' 0px 1px 0px rgba(255,255,255,1);'
 				});
 
+Cufon.replace('.spot-header', 
+				{ 
+				 fontFamily: 'Max-Light'
+				 //textShadow: ' 0px 1x 0px rgba(0,0,0,0.3);'
+				});
+
 Cufon.replace('.box h2', { fontFamily: 'Max-Bold' });	
